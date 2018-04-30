@@ -1,0 +1,63 @@
+.list-folder {
+    overflow: auto;    
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid white;
+}
+
+.list-folder li {
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+.list-folder .item {
+    padding: 10px 20px;
+    background: transparent;
+    width: 100%;
+    border: 0px solid;
+    text-align: left;
+    color: #fff;
+}
+
+.list-folder .item:hover {
+    background: #00acb2;
+    color: #000;
+    cursor: pointer;
+}
+
+.list-folder .option {
+    position: absolute;
+    margin: 5px;
+    top: 0;
+    right: 0;
+    float: right;
+}
+
+[class^="icon-"],
+[class*=" icon-"],
+[class^="button-"],
+[class*=" button-"] {
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.icon-FILE {
+    background-image: url(../../images/icon-file.svg);
+}
+
+.icon-FOLDER {
+    background-image: url(../../images/icon-folder.svg);
+}
+
+.icon-rename {
+    background-image: url(../../images/icon-rename.svg);
+}
+
+.icon-remove {
+    background-image: url(../../images/icon-remove.svg);
+}
